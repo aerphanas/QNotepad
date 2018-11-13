@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/svg">
+        <file>document-new-symbolic.svg</file>
+        <file>document-open-symbolic.svg</file>
+        <file>document-print-symbolic.svg</file>
+        <file>edit-copy-symbolic.svg</file>
+        <file>edit-cut-symbolic.svg</file>
+        <file>edit-paste-symbolic.svg</file>
+        <file>edit-redo-symbolic.svg</file>
+        <file>edit-undo-symbolic.svg</file>
+        <file>application-exit-symbolic.svg</file>
+        <file>browser-download-symbolic.svg</file>
+        <file>accessories-text-editor.svg</file>
+    </qresource>
+</RCC>
