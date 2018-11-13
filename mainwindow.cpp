@@ -17,6 +17,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_actionNew_triggered()
 {
     currentFile.clear();
+    setWindowTitle("Untitled");
     ui->textEdit->setText(QString());
 }
 
@@ -24,12 +25,12 @@ void MainWindow::on_actionopen_triggered()
 {
     QString filename = QFileDialog::getOpenFileName(this, "Open the file");
     QFile file(filename);
-    currentFile = filename;
     if (!file.open(QIODevice::ReadOnly | QFile::Text)) {
-            QMessageBox::warning(this, "Warning", "Cannot open file : ", file.errorString());
+            QMessageBox::warning(this, "Warning", "Cannot open file : " + file.errorString(), "ok");
             return;
     }
-    setWindowTitle(filename);
+    currentFile = filename;
+    setWindowTitle(currentFile);
     QTextStream in(&file);
     QString text = in.readAll();
     ui->textEdit->setText(text);
@@ -41,7 +42,7 @@ void MainWindow::on_actionSave_as_triggered()
     QString filename = QFileDialog::getSaveFileName(this, "Save as");
     QFile file(filename);
     if (!file.open(QFile ::WriteOnly | QFile::Text)) {
-            QMessageBox::warning(this, "Warning", "Cannot Save file : ", file.errorString());
+            QMessageBox::warning(this, "Warning", "Cannot Save file : " + file.errorString(), "ok");
             return;
     }
     currentFile = filename;
@@ -62,6 +63,19 @@ void MainWindow::on_actionprint_triggered()
         return;
     }
     ui->textEdit->print(&printer);
+}
+
+void MainWindow::on_actionSave_triggered()
+{
+    QFile file(currentFile);
+    if (!file.open(QFile ::WriteOnly | QFile::Text)) {
+            QMessageBox::warning(this, "Warning", "Cannot Save file : " + file.errorString(), "ok");
+            return;
+    }
+    QTextStream out(&file);
+    QString text = ui->textEdit->toPlainText();
+    out << text;
+    file.close();
 }
 
 void MainWindow::on_actionexit_triggered()
@@ -87,4 +101,14 @@ void MainWindow::on_actionundo_triggered()
 void MainWindow::on_actionredo_triggered()
 {
     ui->textEdit->redo();
+}
+
+void MainWindow::on_actionCut_triggered()
+{
+    ui->textEdit->cut();
+}
+
+void MainWindow::on_actionClear_triggered()
+{
+    ui->textEdit->clear();
 }

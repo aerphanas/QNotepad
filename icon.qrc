@@ -11,5 +11,8 @@
         <file>application-exit-symbolic.svg</file>
         <file>browser-download-symbolic.svg</file>
         <file>accessories-text-editor.svg</file>
+        <file>edit-clear-all-symbolic.svg</file>
+        <file>document-save-as-symbolic.svg</file>
+        <file>document-save-symbolic.svg</file>
     </qresource>
 </RCC>
