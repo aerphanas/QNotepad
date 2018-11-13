@@ -10,6 +10,7 @@ icon : papirus
  - add cut
  - add exit
  - add clear
+ 
 ***v0.2(beta)***:
  - add save
  - add undo
