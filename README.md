@@ -8,6 +8,8 @@
 
 Lightweight Notepad Using Qt  
 
+![screenshot](https://gitlab.com/Kuroyasha512/QNotepad/raw/master/screenshot/Screenshot%20at%202019-04-04%2018-47-46.png?inline=false)
+
 ## License
 
 This project is licensed under the GNU GPLv3 License - see the [LICENSE](https://gitlab.com/Kuroyasha512/keycode/blob/master/LICENSE) file for details
