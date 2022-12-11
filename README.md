@@ -1,14 +1,14 @@
 # QNotepad
 
-[![Author](https://img.shields.io/badge/author-Kuroyasha512-blue.svg)](https://gitlab.com/Kuroyasha512)
-[![Source Code](https://img.shields.io/badge/source-Kuroyasha512/QNotepad-blue.svg)](https://gitlab.com/Kuroyasha512/QNotepad/tree/master/source)
-[![Software License](https://img.shields.io/badge/license-GNU_GPLv3-brightgreen.svg)](https://gitlab.com/Kuroyasha512/QNotepad#license)
-[![Status](https://img.shields.io/badge/Status-Development-red.svg)](https://gitlab.com/Kuroyasha512/QNotepad/blob/master/README.md)
+[![Author](https://img.shields.io/badge/author-aerphanas-blue.svg)](https://gitlab.com/aerphanas)
+[![Source Code](https://img.shields.io/badge/source-aerphanas/QNotepad-blue.svg)](https://gitlab.com/aerphanas/QNotepad/tree/master/source)
+[![Software License](https://img.shields.io/badge/license-GNU_GPLv3-brightgreen.svg)](https://gitlab.com/aerphanas/QNotepad#license)
+[![Status](https://img.shields.io/badge/Status-Development-red.svg)](https://gitlab.com/aerphanas/QNotepad/blob/master/README.md)
 [![os](https://img.shields.io/badge/os-GNU/Linux-red.svg)](https://www.gnu.org/gnu/linux-and-gnu.en.html)
 
 Lightweight Notepad Using Qt  
 
-![screenshot](https://gitlab.com/Kuroyasha512/QNotepad/raw/master/screenshot/Screenshot%20at%202019-04-04%2018-47-46.png?inline=false)
+![screenshot](https://raw.githubusercontent.com/aerphanas/QNotepad/master/screenshot/Screenshot%20at%202019-04-04%2018-47-46.png)
 
 ## **License**
 
