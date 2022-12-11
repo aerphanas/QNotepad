@@ -12,7 +12,7 @@ Lightweight Notepad Using Qt
 
 ## **License**
 
-This project is licensed under [![LICENSE](https://www.gnu.org/graphics/gplv3-with-text-84x42.png)](https://gitlab.com/Kuroyasha512/QNotepad/blob/master/LICENSE) - see the [LICENSE](https://gitlab.com/Kuroyasha512/QNotepad/blob/master/LICENSE) file for details
+This project is licensed under [![LICENSE](https://www.gnu.org/graphics/gplv3-with-text-84x42.png)](https://gitlab.com/aerphanas/QNotepad/blob/master/LICENSE) - see the [LICENSE](https://gitlab.com/aerphanas/QNotepad/blob/master/LICENSE) file for details
 
 ### Philosophy
 My program use Unix Philosophy :  
